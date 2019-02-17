@@ -76,11 +76,11 @@ WSGI_APPLICATION = 'westsloth.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'westslothdb',
-        'USER': 'postgres',
-        'PASSWORD':'Xenon651',
-        'HOST':'127.0.0.1',
-        'PORT':'5432',
+        'NAME': pgName,
+        'USER': pgUser,
+        'PASSWORD':pgPass,
+        'HOST':pgHost,
+        'PORT':pgPort,
     }
 }
 
